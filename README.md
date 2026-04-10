@@ -3,7 +3,6 @@
 A hand-drawn, interactive web page for [Toastmasters](https://www.toastmasters.org/) clubs.  
 Members stand in a visual circle holding hands — experienced speakers are always placed next to newer ones, so anyone with a question knows exactly who to turn to.
 
-![Sketch-style stick figures arranged in a ring, each labelled with a name and level](.github/preview.png)
 
 ## What it does
 
