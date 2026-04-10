@@ -48,32 +48,3 @@ Ring order: Maria lv5 → Nabeelah lv2 → Janine lv4 → Johnny lv1 → Marie-P
 ```
 
 Every senior member ends up flanked by junior ones.
-
-## Running locally
-
-The page fetches `members.toml` at runtime, so it needs to be served over HTTP (not opened as `file://`):
-
-```bash
-# Python (built-in)
-python3 -m http.server
-
-# Node (if you have npx)
-npx serve .
-```
-
-Then open [http://localhost:8000](http://localhost:8000).
-
-## Deploying to GitHub Pages
-
-1. Push this repo to GitHub
-2. Go to **Settings → Pages → Source** and select the `main` branch, root folder
-3. Your ring will be live at `https://<username>.github.io/<repo-name>/`
-
-## Tech
-
-| What | How |
-|---|---|
-| Sketchy drawing | [rough.js](https://roughjs.com/) |
-| Handwriting font | [Caveat](https://fonts.google.com/specimen/Caveat) via Google Fonts |
-| Data | `members.toml` (fetched at load) + `localStorage` for emoji/colour |
-| Hosting | GitHub Pages (single static file) |
